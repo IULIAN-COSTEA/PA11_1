@@ -30,7 +30,7 @@ I have evaluated four regression models ( Linear, Ridge, Polynomial and Lasso ) 
 
 Here is a look at the overall models performance ranking:
 
-![Regression models performance chart](/main/images/models_performance.png)
+![Regression models performance chart](/images/models_performance.png)
 
 #### CONCLUSION AND RECOMMENDATIONS FOR THE CAR DEALER:
 I have valuable information for the car dealer. I will inform the car dealer the following:
