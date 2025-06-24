@@ -28,7 +28,9 @@ I have evaluated four regression models ( Linear, Ridge, Polynomial and Lasso ) 
 - Experiment B - I've run three models (Linear, Ridge and Polynomial) on numerical and a subset of categorical features(the ones with the most significant variance) using PCA. In this case Polynomial regression (2nd degree + 40 parameters) delivered the best result(R2=0.723). Linear Regression was not able to predict anything. Note: Lasso regression was excluded from this experiment because has its own PCA.
 - Experiment C - I've run Lasso regression on all features. The performace was modest R2=0.607 when compared with polynomial regression. Bestmodel with (alpha=0.390 + 79 parameters)
 
-  
+Here is a look at the overall models performance ranking:
+
+![Regression models performance chart](/main/images/models_performance.png)
 
 #### CONCLUSION AND RECOMMENDATIONS FOR THE CAR DEALER:
 I have valuable information for the car dealer. I will inform the car dealer the following:
@@ -43,13 +45,8 @@ My key recommendations for a car features that will ensure that the car will sel
 7. Car Title_status(1-lien, 2-clean, 3-rebuilt)
 8. Car condition (1-like new, 2-excellent, 3-good)
 
-Here is a look at the popularity of different programming languages:
+   *Note: The values inside each features were extracted by analysing Principal components. The details were not provided becuase of the big table and 
 
-![Car features importance chart Chart](/images/features_importance.png)
+Here is a look at the overall car features importance:
 
-### Car features' importance by impact on car overall price
-
-This violin plot shows the distribution of values for different categories:
-
-![Car features chart](/images/features_importance.png)
-
+![Car features importance chart](/images/features_importance.png)
