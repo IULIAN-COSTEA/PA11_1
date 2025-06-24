@@ -45,8 +45,7 @@ My key recommendations for a car features that will ensure that the car will sel
 7. Car Title_status(1-lien, 2-clean, 3-rebuilt)
 8. Car condition (1-like new, 2-excellent, 3-good)
 
-######   *Note: The values inside each features were extracted by analysing Principal Components for polynomial regression. 
-######    However, the details were not provided becuase of size of the PC table.
+######   *Note: The values inside each features were extracted by analysing Principal Components for polynomial regression. However, the details were not provided becuase of size of the PC table.
 
 Here is a look at the overall car features importance:
 
