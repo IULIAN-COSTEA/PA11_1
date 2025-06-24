@@ -29,9 +29,11 @@ I have evaluated four regression models ( Linear, Ridge, Polynomial and Lasso ) 
 - Experiment C - I've run Lasso regression on all features. The performace was modest R2=0.607 when compared with polynomial regression. Bestmodel with (alpha=0.390 + 79 parameters)
 
 Below the Experiments' results:
+
 ![Experiments Results Summary](/images/experiments.png)
 
 Here is a look at the overall models performance ranking:
+
 ![Regression models performance chart](/images/models_performance.png)
 
 #### CONCLUSION AND RECOMMENDATIONS FOR THE CAR DEALER:
