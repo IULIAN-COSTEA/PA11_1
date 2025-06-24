@@ -51,13 +51,13 @@ My key recommendations for a car features that will ensure that the car will sel
 7. Car Title_status(1-lien, 2-clean, 3-rebuilt)
 8. Car condition (1-like new, 2-excellent, 3-good)
 
+######   *Note: The values inside each features were extracted by analysing Principal Components for polynomial regression. However, the details were not provided becuase of size of the PC table.
+
+Here is a look at the overall car features importance:
+![Car features importance chart](/images/features_importance.png)
+
 #### NEXT STEPS AND RECOMMENDATIONS:
 1. Conduct a more analysis of the Principal Components for a deeper dive into the findings
 2. Further improvement of the dataset by analysing the categorical features, further removing outliers and adding the features that were excluded in the current experiments
 3. Use more advanced models like random forest, etc. for a better model
 4. Ask the car dealer for more information or insights that might provide more direction when exploring the dataset
-
-######   *Note: The values inside each features were extracted by analysing Principal Components for polynomial regression. However, the details were not provided becuase of size of the PC table.
-
-Here is a look at the overall car features importance:
-![Car features importance chart](/images/features_importance.png)
