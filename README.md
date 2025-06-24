@@ -42,3 +42,14 @@ My key recommendations for a car features that will ensure that the car will sel
 6. Car wheel drive (1-fwd, 2-4wd, 3-rwd)
 7. Car Title_status(1-lien, 2-clean, 3-rebuilt)
 8. Car condition (1-like new, 2-excellent, 3-good)
+
+Here is a look at the popularity of different programming languages:
+
+![Car features importance chart Chart](/images/features_importance.png)
+
+### Car features' importance by impact on car overall price
+
+This violin plot shows the distribution of values for different categories:
+
+![Car features chart](/images/features_importance.png)
+
